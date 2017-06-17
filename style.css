@@ -1,0 +1,48 @@
+/*Body*/
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100vh;
+	width: 360px;
+	border: solid 5px black;
+	background-color: #fff2e6;
+}
+
+
+/*Header*/
+header{
+	width: 360px;
+}
+header h1{
+	margin: 0
+}
+
+/*Navigation*/
+nav{
+	padding: 5px 0px;
+}
+nav ul{
+	display: inline-flex;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+nav ul li{
+	width: 100%;
+	padding: 0;
+}
+nav ul li a{
+	padding-right: 9px;
+	color: #331a00
+}
+nav ul li a:hover{
+	color: #ff8000;
+}
+
+/*Footer*/
+footer{
+	width: 360px;
+	background-color: #fff;
+}
+
